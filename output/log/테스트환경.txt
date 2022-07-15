@@ -1,0 +1,61 @@
+C:\Users\user>wmic cpu list full
+
+
+AddressWidth=64
+Architecture=9
+Availability=3
+Caption=Intel64 Family 6 Model 85 Stepping 4
+ConfigManagerErrorCode=
+ConfigManagerUserConfig=
+CpuStatus=1
+CreationClassName=Win32_Processor
+CurrentClockSpeed=3792
+CurrentVoltage=16
+DataWidth=64
+Description=Intel64 Family 6 Model 85 Stepping 4
+DeviceID=CPU0
+ErrorCleared=
+ErrorDescription=
+ExtClock=100
+Family=179
+InstallDate=
+L2CacheSize=8192
+L2CacheSpeed=
+LastErrorCode=
+Level=6
+LoadPercentage=100
+Manufacturer=GenuineIntel
+MaxClockSpeed=3792
+Name=Intel(R) Core(TM) i7-9800X CPU @ 3.80GHz
+OtherFamilyDescription=
+PNPDeviceID=
+PowerManagementCapabilities=
+PowerManagementSupported=FALSE
+ProcessorId=BFEBFBFF00050654
+ProcessorType=3
+Revision=21764
+Role=CPU
+SocketDesignation=LGA 2066 R4
+Status=OK
+StatusInfo=3
+Stepping=
+SystemCreationClassName=Win32_ComputerSystem
+SystemName=DESKTOP-CLL1AC5
+UniqueId=
+UpgradeMethod=1
+Version=
+VoltageCaps=
+
+
+
+
+C:\Users\user>wmic memorychip
+Attributes  BankLabel  Capacity     Caption      ConfiguredClockSpeed  ConfiguredVoltage  CreationClassName     DataWidth  Description  DeviceLocator  FormFactor  HotSwappable  InstallDate  InterleaveDataDepth  InterleavePosition  Manufacturer  MaxVoltage  MemoryType  MinVoltage  Model  Name         OtherIdentifyingInfo  PartNumber        PositionInRow  PoweredOn  Removable  Replaceable  SerialNumber  SKU  SMBIOSMemoryType  Speed  Status  Tag                TotalWidth  TypeDetail  Version
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_A1        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D38549           26                2667           Physical Memory 0  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_A2        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D22056           26                2667           Physical Memory 1  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_B1        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D38544           26                2667           Physical Memory 2  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_B2        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43DB1-CTD  1                                                 3312B077           26                2667           Physical Memory 3  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_C1        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D222A8           26                2667           Physical Memory 4  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_C2        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D1FE39           26                2667           Physical Memory 5  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_D1        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D20057           26                2667           Physical Memory 6  72          128   
+2           NODE 1     17179869184  실제 메모리  2667                  1200               Win32_PhysicalMemory  64         실제 메모리  DIMM_D2        8                                      0                    0                   Samsung       1200        0           1200               실제 메모리                        M378A2K43CB1-CTD  1                                                 12D20058           26                2667           Physical Memory 7  72          128   
